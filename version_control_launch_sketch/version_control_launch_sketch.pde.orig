@@ -7,7 +7,7 @@ void setup(){
 
 void draw(){
   background(0);
-<<<<<<< .merge_file_VFuF9C
+<<<<<<< .merge_file_Pn0yLR
   for (int i = particles.size()-1; i>=0;i--){
     particles.get(i).update();
     particles.get(i).display();
@@ -18,7 +18,7 @@ void draw(){
   for (int j = 0; j < particles.size(); j++){
     particles.get(j).update();
     particles.get(j).display();
->>>>>>> .merge_file_xpZPlq
+>>>>>>> .merge_file_3fbHGF
   }
   if(mousePressed == true) {
     particles.add(new Particle(mouseX, mouseY));
